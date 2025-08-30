@@ -9,7 +9,7 @@ Este documento describe los pasos para descargar e instalar un proyecto en **Ion
 Ejecuta el siguiente comando en tu terminal:
 
 ```bash
-git clone https://github.com/usuario/proyecto-ionic.git
+git clone https://github.com/Harvey-46904/somosmasapp.git proyecto-ionic
 ```
 
 Luego entra en la carpeta del proyecto:
