@@ -1,0 +1,12 @@
+.progress-header-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.progress-side {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

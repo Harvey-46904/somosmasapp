@@ -1,0 +1,145 @@
+.home-content {
+  --background: url('../Assets/Fondos/fondofinal.jpg') no-repeat center center / cover;
+  display: flex;
+  justify-content: center;   /* centra vertical */
+  align-items: center;       /* centra horizontal */
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+html, body, ion-app, ion-content {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  background: #003c8f !important;
+}
+.circular-img {
+  width: 45%;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #016201;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;   /* imagen completa */
+  background-color: #000;     /* relleno detrás */
+}
+
+#psicologo{
+   background-image: url("../Assets/Personajes/psicolog.png");
+}
+@font-face {
+  font-family: "ShineMonday";
+  src: url("../assets/Fonts/ShineMonday.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Clase especial para títulos */
+.titulo {
+  font-family: "ShineMonday", cursive;
+  font-size: 1.5rem; /* ajusta tamaño */
+  font-weight: normal;
+  text-align: center;
+}
+.titulo_secondary{
+  font-family: "ShineMonday", cursive;
+  font-size: 1.5rem; /* ajusta tamaño */
+  font-weight: normal;
+ 
+}
+
+/* Logo arriba centrado */
+.logo {
+  background: url('../Assets/Fondos/logosomos.png') no-repeat center center / contain;
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 200px;   /* ajusta el ancho */
+  height: 350px;  /* ajusta el alto */
+   padding: 0.5rem 0;
+}
+
+/* Botón centrado en la pantalla */
+.center-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.center-wrapper {
+  width: 100%;
+  max-width: 400px;
+  text-align: center; /* opcional, para que el texto quede alineado */
+}
+
+.custom-list {
+  width: 100%;        /* ocupa todo el ancho */
+  background: none;   /* fondo transparente */
+}
+
+.custom-item {
+  --background: transparent; /* quita fondo blanco */
+  width: 100%;
+}
+
+.custom-input {
+  width: 100%;
+  --background: transparent;
+  --color: #ffffff;   /* color del texto que escribe el usuario */
+  --placeholder-color: #cccccc; /* color del placeholder */
+  font-size: 40px;    /* tamaño del texto */
+}
+
+.custom-tabbar {
+  --background: #ffffff;
+  height: 70px;
+
+  margin: 0 3px 16px;   /* separación con los bordes */
+  border-radius: 10px;   /* redondeado completo */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* sombra para efecto flotante */
+         /* quita borde superior */
+}
+
+
+
+.item-transparent {
+  --background: transparent !important;
+}
+
+.tab-icon {
+  font-size: 32px;   /* íconos más grandes */
+  color: #03ab68;    /* verde personalizado */
+}
+
+.header-transparent {
+  --background: transparent; /* fondo transparente */
+  --ion-color-base: transparent !important;
+  box-shadow: none; /* quita sombra */
+}
+
+.item-transparent {
+  --background: transparent;
+}
+
+.neon-card {
+  background: rgba(15, 71, 175, 0.452); /* semi-transparente */
+  border: 0.5px solid rgb(63, 141, 67); /* color base del neon */
+  border-radius: 15px;
+  /*box-shadow: 0 0 1px rgb(0, 255, 0), 0 0 20px rgb(0, 255, 34), 0 0 40px rgb(43, 255, 0);
+  */color: white; /* texto claro */
+}
+
+/* botones*/
+.main-button {
+  --background: #03ab68;   /* color de fondo */
+  --color: #fff;           /* color del texto */
+  --border-radius: 12px;   /* opcional */
+  font-size: 18px;         /* opcional */
+  padding: 12px 24px;      /* opcional */
+}
